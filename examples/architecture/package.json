@@ -1,0 +1,16 @@
+{
+  "name": "architecture",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "layout-engineer 自身架构图 —— 由 layout-engineer 生成",
+  "scripts": {
+    "build": "node ../../layout/scripts/build-tree.mjs --project .",
+    "view": "node ../../layout/scripts/positioning-viewer/serve.mjs --project .",
+    "validate": "node ../../layout/scripts/validate/run-all.mjs --project .",
+    "render": "node ../../drawio/scripts/serializers/index.mjs --project . --target all",
+    "storyboard": "node ../../drawio/scripts/storyboard/index.mjs --project .",
+    "docs": "node ../../layout/scripts/docgen.mjs --project .",
+    "diagram": "node ../../drawio/scripts/serializers/preview.mjs --project . --style diagram"
+  }
+}

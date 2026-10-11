@@ -1,0 +1,33 @@
+{
+  "name": "layout-engineer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "让 AI 像工程师一样生成前端页面、图片与 Remotion 视频：几何即代码、两级确认、脚本强制验证、产物归档。零运行时依赖。",
+  "engines": {
+    "node": ">=22.6"
+  },
+  "scripts": {
+    "test": "node tests/run.mjs",
+    "new": "node scripts/new-project.mjs",
+    "example:build": "node layout/scripts/build-tree.mjs --project examples/landing",
+    "example:view": "node layout/scripts/positioning-viewer/serve.mjs --project examples/landing",
+    "example:validate": "node layout/scripts/validate/run-all.mjs --project examples/landing",
+    "example:render": "node drawio/scripts/serializers/index.mjs --project examples/landing --target all",
+    "example:storyboard": "node drawio/scripts/storyboard/index.mjs --project examples/landing",
+    "example:confirm": "node layout/scripts/confirm.mjs --project examples/landing --show",
+    "print-tree": "node layout/scripts/print-tree.mjs --project examples/architecture",
+    "impact": "node layout/scripts/indexer.mjs --project examples/landing --impact HEADER_H 56"
+  },
+  "keywords": [
+    "layout",
+    "positioning",
+    "remotion",
+    "design-tokens",
+    "skill"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}

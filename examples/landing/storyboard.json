@@ -1,0 +1,11 @@
+{
+  "fps": 30,
+  "duration": 3.0,
+  "breakpoint": "desktop",
+  "tracks": [
+    { "id": "header", "enter": 0.0, "expanded": 0.4, "exit": 3.0, "animation": "fade" },
+    { "id": "sidebar", "enter": 0.0, "expanded": 0.4, "exit": 3.0, "animation": "slide-left" },
+    { "id": "card-list", "enter": 0.4, "expanded": 0.9, "exit": 3.0, "animation": "fade" },
+    { "id": "footer", "enter": 1.6, "expanded": 2.0, "exit": 3.0, "animation": "slide-up" }
+  ]
+}

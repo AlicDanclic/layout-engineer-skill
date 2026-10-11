@@ -1,0 +1,12 @@
+{
+  "fps": 30,
+  "duration": 3.0,
+  "breakpoint": "desktop",
+  "tracks": [
+    { "id": "title", "enter": 0.0, "expanded": 0.4, "exit": 3.0, "animation": "fade" },
+    { "id": "workflow", "enter": 0.0, "expanded": 0.4, "exit": 3.0, "animation": "fade" },
+    { "id": "core", "enter": 0.4, "expanded": 0.9, "exit": 3.0, "animation": "slide-up" },
+    { "id": "verify", "enter": 0.9, "expanded": 1.6, "exit": 3.0, "animation": "fade" },
+    { "id": "archive", "enter": 1.6, "expanded": 2.0, "exit": 3.0, "animation": "slide-up" }
+  ]
+}

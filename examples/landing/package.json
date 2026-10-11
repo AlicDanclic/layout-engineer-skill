@@ -1,0 +1,12 @@
+{
+  "name": "layout-engineer-example-landing",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "layout-engineer 示例：landing 页双端布局（零依赖）",
+  "scripts": {
+    "build": "node ../../layout/scripts/build-tree.mjs --project .",
+    "view": "node ../../layout/scripts/positioning-viewer/serve.mjs --project .",
+    "validate": "node ../../layout/scripts/validate/run-all.mjs --project ."
+  }
+}

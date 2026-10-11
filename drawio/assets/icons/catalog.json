@@ -1,0 +1,494 @@
+{
+  "version": 1,
+  "source": "assets/icons",
+  "note": "由 drawio/scripts/icons/build-catalog.mjs 生成；逻辑名供 Layout Tree 节点的 icon 字段引用。",
+  "categories": {
+    "vendor": [
+      "adi",
+      "texas"
+    ],
+    "platform": [
+      "android",
+      "cloudflare",
+      "docker",
+      "espressif",
+      "gitee",
+      "github",
+      "google",
+      "stmicroelectronics"
+    ],
+    "generic": [
+      "document",
+      "image",
+      "jsonfile",
+      "markdown"
+    ],
+    "tool": [
+      "drawio",
+      "git",
+      "gradle",
+      "kicad",
+      "platformio"
+    ],
+    "framework": [
+      "electron",
+      "lvgl",
+      "opencv",
+      "qt",
+      "react",
+      "tauri"
+    ],
+    "language": [
+      "go",
+      "html5",
+      "python",
+      "rust"
+    ],
+    "misc": [
+      "智乃智乃"
+    ]
+  },
+  "icons": {
+    "adi": {
+      "label": "Analog Devices (ADI)",
+      "category": "vendor",
+      "svg": "ADI_Color.svg",
+      "raster": "ADI_Color.png",
+      "rasterMime": "image/png",
+      "variants": {
+        "color": {
+          "svg": "ADI_Color.svg",
+          "raster": "ADI_Color.png",
+          "rasterMime": "image/png"
+        },
+        "monochrome": {
+          "svg": "ADI_Monochrome.svg",
+          "raster": "ADI_Monochrome.png",
+          "rasterMime": "image/png"
+        }
+      }
+    },
+    "android": {
+      "label": "Android",
+      "category": "platform",
+      "svg": "android_Monochrome.svg",
+      "raster": "android_Monochrome.png",
+      "rasterMime": "image/png",
+      "variants": {
+        "monochrome": {
+          "svg": "android_Monochrome.svg",
+          "raster": "android_Monochrome.png",
+          "rasterMime": "image/png"
+        }
+      }
+    },
+    "cloudflare": {
+      "label": "Cloudflare",
+      "category": "platform",
+      "svg": "cloudflare_Monochrome.svg",
+      "raster": "cloudflare_Monochrome.png",
+      "rasterMime": "image/png",
+      "variants": {
+        "monochrome": {
+          "svg": "cloudflare_Monochrome.svg",
+          "raster": "cloudflare_Monochrome.png",
+          "rasterMime": "image/png"
+        }
+      }
+    },
+    "docker": {
+      "label": "Docker",
+      "category": "platform",
+      "svg": "docker_Monochrome.svg",
+      "raster": "docker_Monochrome.png",
+      "rasterMime": "image/png",
+      "variants": {
+        "monochrome": {
+          "svg": "docker_Monochrome.svg",
+          "raster": "docker_Monochrome.png",
+          "rasterMime": "image/png"
+        }
+      }
+    },
+    "document": {
+      "label": "Document",
+      "category": "generic",
+      "svg": "Document_Color.svg",
+      "raster": "Document_Color.png",
+      "rasterMime": "image/png",
+      "variants": {
+        "color": {
+          "svg": "Document_Color.svg",
+          "raster": "Document_Color.png",
+          "rasterMime": "image/png"
+        }
+      }
+    },
+    "drawio": {
+      "label": "draw.io",
+      "category": "tool",
+      "svg": "drawio_Monochrome.svg",
+      "raster": "drawio_Monochrome.png",
+      "rasterMime": "image/png",
+      "variants": {
+        "monochrome": {
+          "svg": "drawio_Monochrome.svg",
+          "raster": "drawio_Monochrome.png",
+          "rasterMime": "image/png"
+        }
+      }
+    },
+    "electron": {
+      "label": "Electron",
+      "category": "framework",
+      "svg": "electron_Monochrome.svg",
+      "raster": "electron_Monochrome.png",
+      "rasterMime": "image/png",
+      "variants": {
+        "monochrome": {
+          "svg": "electron_Monochrome.svg",
+          "raster": "electron_Monochrome.png",
+          "rasterMime": "image/png"
+        }
+      }
+    },
+    "espressif": {
+      "label": "Espressif (ESP32)",
+      "category": "platform",
+      "svg": "espressif_Monochrome.svg",
+      "raster": "espressif_Monochrome.png",
+      "rasterMime": "image/png",
+      "variants": {
+        "monochrome": {
+          "svg": "espressif_Monochrome.svg",
+          "raster": "espressif_Monochrome.png",
+          "rasterMime": "image/png"
+        }
+      }
+    },
+    "git": {
+      "label": "Git",
+      "category": "tool",
+      "svg": "Git_Monochrome.svg",
+      "raster": "Git_Monochrome.png",
+      "rasterMime": "image/png",
+      "variants": {
+        "color": {
+          "svg": "Git_Color.svg"
+        },
+        "monochrome": {
+          "svg": "Git_Monochrome.svg",
+          "raster": "Git_Monochrome.png",
+          "rasterMime": "image/png"
+        },
+        "color_labeled": {
+          "svg": "Git_Color_Labeled.svg",
+          "raster": "Git_Color_Labeled.png",
+          "rasterMime": "image/png"
+        }
+      }
+    },
+    "gitee": {
+      "label": "Gitee",
+      "category": "platform",
+      "svg": "gitee_Monochrome.svg",
+      "raster": "gitee_Monochrome.png",
+      "rasterMime": "image/png",
+      "variants": {
+        "monochrome": {
+          "svg": "gitee_Monochrome.svg",
+          "raster": "gitee_Monochrome.png",
+          "rasterMime": "image/png"
+        }
+      }
+    },
+    "github": {
+      "label": "GitHub",
+      "category": "platform",
+      "svg": "github_Monochrome.svg",
+      "raster": "github_Monochrome.png",
+      "rasterMime": "image/png",
+      "variants": {
+        "monochrome": {
+          "svg": "github_Monochrome.svg",
+          "raster": "github_Monochrome.png",
+          "rasterMime": "image/png"
+        }
+      }
+    },
+    "go": {
+      "label": "Go",
+      "category": "language",
+      "svg": "go_Monochrome.svg",
+      "raster": "go_Monochrome.png",
+      "rasterMime": "image/png",
+      "variants": {
+        "monochrome": {
+          "svg": "go_Monochrome.svg",
+          "raster": "go_Monochrome.png",
+          "rasterMime": "image/png"
+        }
+      }
+    },
+    "google": {
+      "label": "Google",
+      "category": "platform",
+      "svg": "google_Monochrome.svg",
+      "raster": "google_Monochrome.png",
+      "rasterMime": "image/png",
+      "variants": {
+        "monochrome": {
+          "svg": "google_Monochrome.svg",
+          "raster": "google_Monochrome.png",
+          "rasterMime": "image/png"
+        }
+      }
+    },
+    "gradle": {
+      "label": "Gradle",
+      "category": "tool",
+      "svg": "gradle_Monochrome.svg",
+      "raster": "gradle_Monochrome.png",
+      "rasterMime": "image/png",
+      "variants": {
+        "monochrome": {
+          "svg": "gradle_Monochrome.svg",
+          "raster": "gradle_Monochrome.png",
+          "rasterMime": "image/png"
+        }
+      }
+    },
+    "html5": {
+      "label": "HTML5",
+      "category": "language",
+      "svg": "html5_Monochrome.svg",
+      "raster": "html5_Monochrome.png",
+      "rasterMime": "image/png",
+      "variants": {
+        "monochrome": {
+          "svg": "html5_Monochrome.svg",
+          "raster": "html5_Monochrome.png",
+          "rasterMime": "image/png"
+        }
+      }
+    },
+    "image": {
+      "label": "Image",
+      "category": "generic",
+      "svg": null,
+      "raster": "image_Color.png",
+      "rasterMime": "image/png",
+      "variants": {
+        "color": {
+          "raster": "image_Color.png",
+          "rasterMime": "image/png"
+        }
+      }
+    },
+    "jsonfile": {
+      "label": "JSON",
+      "category": "generic",
+      "svg": "JsonFile_Color.svg",
+      "raster": "JsonFile_Color.png",
+      "rasterMime": "image/png",
+      "variants": {
+        "color": {
+          "svg": "JsonFile_Color.svg",
+          "raster": "JsonFile_Color.png",
+          "rasterMime": "image/png"
+        }
+      }
+    },
+    "kicad": {
+      "label": "KiCad",
+      "category": "tool",
+      "svg": "kicad_Monochrome.svg",
+      "raster": "kicad_Monochrome.png",
+      "rasterMime": "image/png",
+      "variants": {
+        "monochrome": {
+          "svg": "kicad_Monochrome.svg",
+          "raster": "kicad_Monochrome.png",
+          "rasterMime": "image/png"
+        }
+      }
+    },
+    "lvgl": {
+      "label": "LVGL",
+      "category": "framework",
+      "svg": "lvgl_Monochrome.svg",
+      "raster": "lvgl_Monochrome.png",
+      "rasterMime": "image/png",
+      "variants": {
+        "monochrome": {
+          "svg": "lvgl_Monochrome.svg",
+          "raster": "lvgl_Monochrome.png",
+          "rasterMime": "image/png"
+        }
+      }
+    },
+    "markdown": {
+      "label": "Markdown",
+      "category": "generic",
+      "svg": "markdown_Monochrome.svg",
+      "raster": "markdown_Monochrome.png",
+      "rasterMime": "image/png",
+      "variants": {
+        "monochrome": {
+          "svg": "markdown_Monochrome.svg",
+          "raster": "markdown_Monochrome.png",
+          "rasterMime": "image/png"
+        }
+      }
+    },
+    "opencv": {
+      "label": "OpenCV",
+      "category": "framework",
+      "svg": "opencv_Monochrome.svg",
+      "raster": "opencv_Monochrome.png",
+      "rasterMime": "image/png",
+      "variants": {
+        "monochrome": {
+          "svg": "opencv_Monochrome.svg",
+          "raster": "opencv_Monochrome.png",
+          "rasterMime": "image/png"
+        }
+      }
+    },
+    "platformio": {
+      "label": "PlatformIO",
+      "category": "tool",
+      "svg": "platformio_Monochrome.svg",
+      "raster": "platformio_Monochrome.png",
+      "rasterMime": "image/png",
+      "variants": {
+        "monochrome": {
+          "svg": "platformio_Monochrome.svg",
+          "raster": "platformio_Monochrome.png",
+          "rasterMime": "image/png"
+        }
+      }
+    },
+    "python": {
+      "label": "Python",
+      "category": "language",
+      "svg": "python_Color.svg",
+      "raster": "python_Color.png",
+      "rasterMime": "image/png",
+      "variants": {
+        "color": {
+          "svg": "python_Color.svg",
+          "raster": "python_Color.png",
+          "rasterMime": "image/png"
+        },
+        "monochrome": {
+          "svg": "python_Monochrome.svg",
+          "raster": "python_Monochrome.png",
+          "rasterMime": "image/png"
+        }
+      }
+    },
+    "qt": {
+      "label": "Qt",
+      "category": "framework",
+      "svg": "qt_Monochrome.svg",
+      "raster": "qt_Monochrome.png",
+      "rasterMime": "image/png",
+      "variants": {
+        "monochrome": {
+          "svg": "qt_Monochrome.svg",
+          "raster": "qt_Monochrome.png",
+          "rasterMime": "image/png"
+        }
+      }
+    },
+    "react": {
+      "label": "React",
+      "category": "framework",
+      "svg": "React_Color.svg",
+      "raster": "React_Color.png",
+      "rasterMime": "image/png",
+      "variants": {
+        "color": {
+          "svg": "React_Color.svg",
+          "raster": "React_Color.png",
+          "rasterMime": "image/png"
+        },
+        "monochrome": {
+          "svg": "react_Monochrome.svg",
+          "raster": "react_Monochrome.png",
+          "rasterMime": "image/png"
+        }
+      }
+    },
+    "rust": {
+      "label": "Rust",
+      "category": "language",
+      "svg": "rust_Monochrome.svg",
+      "raster": "rust_Monochrome.png",
+      "rasterMime": "image/png",
+      "variants": {
+        "monochrome": {
+          "svg": "rust_Monochrome.svg",
+          "raster": "rust_Monochrome.png",
+          "rasterMime": "image/png"
+        }
+      }
+    },
+    "stmicroelectronics": {
+      "label": "STMicroelectronics (STM32)",
+      "category": "platform",
+      "svg": "stmicroelectronics_Monochrome.svg",
+      "raster": "stmicroelectronics_Monochrome.png",
+      "rasterMime": "image/png",
+      "variants": {
+        "monochrome": {
+          "svg": "stmicroelectronics_Monochrome.svg",
+          "raster": "stmicroelectronics_Monochrome.png",
+          "rasterMime": "image/png"
+        }
+      }
+    },
+    "tauri": {
+      "label": "Tauri",
+      "category": "framework",
+      "svg": "tauri_Monochrome.svg",
+      "raster": "tauri_Monochrome.png",
+      "rasterMime": "image/png",
+      "variants": {
+        "monochrome": {
+          "svg": "tauri_Monochrome.svg",
+          "raster": "tauri_Monochrome.png",
+          "rasterMime": "image/png"
+        }
+      }
+    },
+    "texas": {
+      "label": "Texas Instruments",
+      "category": "vendor",
+      "svg": null,
+      "raster": "texas_Color_Labeled.jpg",
+      "rasterMime": "image/jpeg",
+      "variants": {
+        "color_labeled": {
+          "raster": "texas_Color_Labeled.jpg",
+          "rasterMime": "image/jpeg"
+        }
+      }
+    },
+    "智乃智乃": {
+      "label": "智乃智乃",
+      "category": "misc",
+      "svg": null,
+      "raster": "智乃智乃.png",
+      "rasterMime": "image/png",
+      "variants": {
+        "default": {
+          "raster": "智乃智乃.png",
+          "rasterMime": "image/png"
+        }
+      }
+    }
+  },
+  "unknown": []
+}

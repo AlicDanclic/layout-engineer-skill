@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>定位确认查看器 · positioning-viewer</title>
+    <link rel="stylesheet" href="/viewer.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <span class="brand">定位确认查看器</span>
+      <span class="project" id="projectName">…</span>
+      <span class="grow"></span>
+      <button id="refresh" class="btn ghost" title="重新读取 layout-tree/*.json">刷新</button>
+      <button id="export" class="btn ghost">导出静态图</button>
+      <button id="confirm" class="btn primary">确认布局</button>
+    </header>
+
+    <main class="layout">
+      <aside class="panel">
+        <section class="group">
+          <h3>元素显隐</h3>
+          <div class="row-actions">
+            <button class="mini" data-all="show">全部显示</button>
+            <button class="mini" data-all="hide">全部隐藏</button>
+          </div>
+          <ul id="elementList" class="elements"></ul>
+        </section>
+
+        <section class="group">
+          <h3>标注开关</h3>
+          <label class="switch"><input type="checkbox" data-opt="showAreas" checked /> 区域圈选</label>
+          <label class="switch"><input type="checkbox" data-opt="showCenters" /> 中心十字线</label>
+          <label class="switch"><input type="checkbox" data-opt="showDistances" checked /> 四向距离</label>
+          <label class="switch"><input type="checkbox" data-opt="showExpr" checked /> 数值来源表达式</label>
+          <label class="switch"><input type="checkbox" data-opt="showCanvasInfo" checked /> 画布信息</label>
+        </section>
+
+        <section class="group">
+          <h3>断点</h3>
+          <label class="switch"><input type="radio" name="bp" value="desktop" checked /> desktop（桌面端）</label>
+          <label class="switch"><input type="radio" name="bp" value="mobile" /> mobile（移动端）</label>
+          <p class="hint" id="canvasHint"></p>
+        </section>
+
+        <section class="group">
+          <h3>流程</h3>
+          <p class="hint">
+            双端各确认一次。点击「确认布局」会把当前开关状态导出为
+            <code>positioning/confirmed-*.svg</code>。
+          </p>
+        </section>
+      </aside>
+
+      <section class="stage-wrap">
+        <div id="stage" class="stage"></div>
+        <div id="status" class="status"></div>
+      </section>
+    </main>
+
+    <script type="module" src="/viewer.js"></script>
+  </body>
+</html>

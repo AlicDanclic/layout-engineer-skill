@@ -1,0 +1,18 @@
+{
+  "name": "drawio-hwsync",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "软硬协同架构（中断 / DMA 回路） —— drawio 系统架构图，由 layout-engineer 生成",
+  "scripts": {
+    "build": "node ../../layout/scripts/build-tree.mjs --project .",
+    "view": "node ../../layout/scripts/positioning-viewer/serve.mjs --project .",
+    "validate": "node ../../layout/scripts/validate/run-all.mjs --project .",
+    "render": "node ../../drawio/scripts/serializers/index.mjs --project . --target drawio",
+    "drawio": "node ../../drawio/scripts/serializers/drawio.mjs --project .",
+    "confirm": "node ../../layout/scripts/confirm.mjs --project .",
+    "print-tree": "node ../../layout/scripts/print-tree.mjs --project .",
+    "impact": "node ../../layout/scripts/indexer.mjs --project . --impact",
+    "docs": "node ../../layout/scripts/docgen.mjs --project ."
+  }
+}
